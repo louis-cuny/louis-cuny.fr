@@ -13,12 +13,14 @@
             {{ end }}
         </div>
         {{ end }}
-        {{ if not .Site.Params.hideCopyright }} © {{ .Site.LastChange.Format "2006" }} {{ end }} {{ if not .Site.Params.hideCredits}} {{ if not .Site.Params.hideCopyright }} · {{ end }} Powered by Daille-daille. {{ end }}
+        {{ if not .Site.Params.hideCopyright }} © {{ .Site.LastChange.Format "2006" }} {{ end }} {{ if not .Site.Params.hideCredits}} {{ if not .Site.Params.hideCopyright }} · {{ end }} Powered by
+        <a href="https://daille-daille.fr">Daille-daille</a>. {{ end }}
 
     </section>
 </footer>
 <div class="fixed-bar">
     <section class="container">
+        <p id="footerText">Contactez-moi à travers un réseau social</p>
         {{ if .Site.Params.snsShare }}
         <div class="sns-shares pc-sns-shares">
             {{ if .Site.Params.enableTwitterShare }}

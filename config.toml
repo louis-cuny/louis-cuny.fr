@@ -1,5 +1,5 @@
 
-baseurl = "https://louis-cuny.fr" # Hostname (and path) to the root.
+baseurl = "/" # Hostname (and path) to the root.
 title = "Louis Cuny" # Site title.
 theme = "coder-portfolio" # Set the theme.
 languagecode = "en" # The site’s language code used to generate RSS.
@@ -16,9 +16,9 @@ disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
 
 [params] # theme parameters
 author = "Louis Cuny" # Author's name.
-info = "Développeur web PHP" # Author's job title or info.
+info = "Développeur web - Drupal & Symfony" # Author's job title or info.
 description = "Louis Cuny's personal website" # Site description.
-keywords = "blog,developer,personal" # Site keywords.
+keywords = "blog,developer,personal,drupal,symfony,php,web" # Site keywords.
 avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
 
 footercontent = "Footer content" # Add footer content
@@ -77,6 +77,6 @@ name = "Blog"
 weight = 1
 url  = "posts"
 [[menu.main]]
-name = "About"
+name = "Curriculum vitæ"
 weight = 2
-url = "about"
+url = "cv"
